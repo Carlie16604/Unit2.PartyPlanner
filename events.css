@@ -1,0 +1,24 @@
+body {
+    background-color:rgb(125, 175, 169);
+}
+
+h1 {
+    font-family:gill sans;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#event-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#event-list > div {
+    width: calc(100%/3);
+    border: dotted black;
+    margin: 1rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
